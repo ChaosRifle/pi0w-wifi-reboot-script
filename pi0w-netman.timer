@@ -1,0 +1,9 @@
+[Unit]
+Description=Pi0W Auto-reboot on networking failure
+
+[Timer]
+OnCalendar=*-*-* *:*0:00
+Persistent=false
+
+[Install]
+WantedBy=timers.target
